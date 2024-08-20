@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo img {
+    width: 80px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+#hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #CCCCCC;
+}
+
+.cta-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
